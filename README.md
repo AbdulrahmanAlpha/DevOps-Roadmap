@@ -1,177 +1,182 @@
-# DevOps Engineer Roadmap for Beginners (By Abdulrahman)
+# 🚀 DevOps Engineer Roadmap for Beginners (By Abdulrahman)
 
-Welcome to your journey into the world of DevOps!  
-This roadmap is designed for complete beginners who want a **clear, step-by-step path** to launching a DevOps career from scratch, especially if you're aiming for internships, entry-level jobs, or a future in DevSecOps.
+Welcome to your journey into the world of **DevOps**!  
+This roadmap is crafted for complete beginners who want a clear, hands-on, and step-by-step path toward becoming a **DevOps Engineer**, especially those aiming for internships, entry-level jobs, or a future in **DevSecOps**.
 
 ---
 
 ## 🧱 STEP 0: Basic IT & Networking (1–2 Weeks)
+🔗 **[Detailed Networking Sub-Roadmap ➜](./SubRoadMaps/NetWorking.md)**
 
-### ✅ What You Need to Know:
-- What are IP addresses, DNS, DHCP, and NAT
-- What's the difference between LAN, WAN, VPN, and Firewall
-- What are ping, traceroute, and how to test a connection
-- Understand HTTP/HTTPS, ports, and protocols (TCP/UDP)
+### ✅ Topics:
+- IP, DNS, DHCP, NAT
+- LAN/WAN/VPN/Firewall basics
+- Tools like `ping`, `traceroute`
+- Ports & Protocols: HTTP, TCP/UDP
 
 📚 Tools & Resources:
-- [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
-- [https://learntheprotocols.com](https://learntheprotocols.com)
-- YouTube: “Networking Fundamentals for DevOps”
+- [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)  
+- [Learn The Protocols](https://learntheprotocols.com)  
+- YouTube: “Networking for DevOps”
 
 ---
 
 ## 🐧 STEP 1: Linux Fundamentals (2 Weeks)
+🔗 **[Detailed Linux Sub-Roadmap ➜](./SubRoadMaps/Linux.md)**
 
-### ✅ What You Need to Know:
-- Navigate the terminal (`cd`, `ls`, `pwd`, `touch`, `mkdir`, etc.)
-- File permissions (`chmod`, `chown`, `umask`)
-- Users & groups (`adduser`, `usermod`, `passwd`)
-- Processes & logs (`top`, `ps`, `journalctl`, `systemctl`)
-- Bash scripting basics (`if`, `for`, `while`, functions)
-- Editing with `nano`, `vim`, or `vi`
+### ✅ Topics:
+- CLI commands (`cd`, `ls`, `touch`)
+- Permissions, users, groups
+- Services, logs, processes
+- Bash scripting, editors like `vim`
 
-📚 Free Tools:
-- [https://linuxjourney.com](https://linuxjourney.com)
+📚 Resources:
+- [https://linuxjourney.com](https://linuxjourney.com)  
 - [https://overapi.com/linux](https://overapi.com/linux)
-- YouTube: “Linux for DevOps Beginners”
 
 ---
 
 ## 🛠️ STEP 2: Version Control (Git & GitHub) (1 Week)
+🔗 **[Detailed Git Sub-Roadmap ➜](./SubRoadMaps/Git.md)**
 
-### ✅ What You Need to Know:
-- What are Git, GitHub, and why do we use them
-- Common Git commands: `init`, `add`, `commit`, `clone`, `push`, `pull`, `branch`, `merge`
-- Resolving merge conflicts
-- Hosting code on GitHub
+### ✅ Topics:
+- What is Git & GitHub
+- `clone`, `commit`, `push`, `pull`, `branch`
+- Merge conflicts
+- Host your first project
 
 📚 Practice:
-- [https://learngitbranching.js.org](https://learngitbranching.js.org)
-- Create your first GitHub repo with a README
+- [Learn Git Branching (visual)](https://learngitbranching.js.org)
 
 ---
 
 ## 🐳 STEP 3: Docker & Containers (2 Weeks)
+🔗 **[Detailed Docker Sub-Roadmap ➜](./SubRoadMaps/Docker.md)**
 
-### ✅ What You Need to Know:
-- What is a container vs a virtual machine
-- Docker commands: `build`, `run`, `exec`, `images`, `volumes`, `networks`
-- Dockerfile basics: `FROM`, `COPY`, `RUN`, `CMD`, `EXPOSE`
-- Build and run your container
-- Intro to Docker Compose
+### ✅ Topics:
+- Containers vs. Virtual Machines
+- `docker build`, `run`, `exec`, `images`
+- Dockerfiles & Docker Compose
+- Run multi-container apps
 
-📚 Practice:
-- Dockerize a Node.js or Python app
-- Run MySQL + app container together using Docker Compose
+📚 Projects:
+- Dockerize a Node.js or Python App  
+- Use Compose to run DB + app stack
 
 ---
 
 ## ☁️ STEP 4: Cloud Basics (AWS) (2–3 Weeks)
+🔗 **[Detailed Cloud Sub-Roadmap ➜](./SubRoadMaps/CloudBasics.md)**
 
-### ✅ What You Need to Know:
-- What is Cloud? What is AWS?
-- Key services: EC2, S3, IAM, VPC
-- How to SSH into EC2 and host a website
-- Upload/download files from S3
-- Understand IAM users, roles, and policies
+### ✅ Topics:
+- What is AWS?
+- EC2, S3, IAM, VPC basics
+- SSH, file uploads, host static site
+- IAM roles, policies
 
-📚 Tools:
-- [https://awseducate.com](https://awseducate.com)
-- Free Tier AWS Account
+🎓 Certification (Optional):
+- AWS Cloud Practitioner
 
-🎓 Certification:
-- AWS Certified Cloud Practitioner (Optional but helpful)
+📚 Practice:
+- [AWS Educate](https://awseducate.com)
 
 ---
 
 ## 📦 STEP 5: Infrastructure as Code (Terraform) (2 Weeks)
+🔗 **[Detailed IaC Sub-Roadmap ➜](./SubRoadMaps/IaC.md)**
 
-### ✅ What You Need to Know:
-- What is IaC and why does it matter
-- Terraform setup and folder structure
+### ✅ Topics:
+- What is IaC?
 - `provider`, `resource`, `variable`, `output`
-- Deploy EC2, VPC, and S3 with Terraform
-- `init`, `plan`, `apply`, `destroy`
+- Create infra like EC2, S3 with Terraform
+- State management, modules, outputs
 
-📚 Practice:
-- Create an EC2 + S3 setup with Terraform
-- Store Terraform state in an S3 bucket
+📚 Projects:
+- EC2 & S3 with Terraform  
+- Remote state in S3 bucket
 
 ---
 
 ## 🔁 STEP 6: CI/CD Fundamentals (GitHub Actions & Jenkins) (3 Weeks)
+🔗 **[Detailed CI/CD Sub-Roadmap ➜](./SubRoadMaps/CiCd.md)**
 
-### ✅ What You Need to Know:
-- What is CI/CD and why it important
-- GitHub Actions: `.yml` basics, build/test/deploy jobs
-- Jenkins: Install, pipelines, and connecting to GitHub
-- Automate app testing & deployment to EC2 or S3
+### ✅ Topics:
+- What is CI/CD
+- GitHub Actions: `.yml` files, jobs, steps
+- Jenkins: install, configure, use pipelines
+- Deploy to EC2/S3
 
-📚 Projects:
-- GitHub Actions pipeline for a static website
-- Jenkins pipeline to deploy a Docker app to EC2
+📚 Practice Projects:
+- Auto-deploy static site via GitHub Actions  
+- Deploy Docker app via Jenkins pipeline
 
 ---
 
-## 🔐 STEP 7: DevSecOps & Monitoring (2 Weeks)
+## 🔐 STEP 7: DevSecOps & Monitoring/Logging (2 Weeks)
+🔗 **[Detailed DevSecOps + Monitoring Sub-Roadmap ➜](./SubRoadMaps/DevsecopsMonitoring.md)**
 
-### ✅ What You Need to Know:
+### ✅ Topics:
 - What is DevSecOps?
-- Scan Docker containers using Snyk or Trivy
-- Set up Prometheus and Grafana for monitoring
-- Create alerts for app downtime or high CPU usage
+- Scanning images (`trivy`, `snyk`, `gitleaks`)
+- Prometheus + Grafana basics
+- Set alerts for high CPU or downtime
 
-📚 Free Tools:
-- [https://snyk.io](https://snyk.io)
-- [https://prometheus.io](https://prometheus.io)
-
----
-
-## 💡 STEP 8: Build Your Portfolio (4 Weeks)
-
-### ✅ Do These Projects:
-- CI/CD for static site to S3
-- Deploy WordPress on EC2 with Terraform
-- Dockerize a Python or Node.js app
-- Monitor services with Prometheus & Grafana
-- Security scan + Docker Hub push
-
-✅ For each project:
-- Write a full `README.md`
-- Upload to GitHub
-- Share screenshots and blog posts on Hashnode
+📚 Tools:
+- [Prometheus.io](https://prometheus.io)  
+- [Snyk](https://snyk.io)  
+- [Grafana](https://grafana.com)
 
 ---
 
-## 🧳 FINAL STEP: Job Prep
+## 💼 STEP 8: Build Your Portfolio (4 Weeks)
 
-### ✅ What You Need to Know:
-- Update your Resume & LinkedIn
-- Prepare for common DevOps Interview Questions
-- Apply to internships & entry-level roles
-- Practice explaining your projects
+### ✅ Projects to Include:
+- CI/CD to S3
+- Dockerized Python/Node.js App
+- WordPress on EC2 via Terraform
+- Monitor system with Prometheus + Grafana
+- Security scan + push to Docker Hub
 
-📚 Free Resources:
-- [https://roadmap.sh/devops](https://roadmap.sh/devops)
-- DevOps Interview Prep Questions
+📌 Pro Tip:  
+👉 For each project: write a `README.md`, upload to GitHub, and post a blog on Hashnode
 
 ---
 
-## 🏁 Summary: Tools You Should Learn
+## 🧪 FINAL STEP: Job Hunting Prep
 
-- 🐧 Linux
-- 🔗 Git & GitHub
-- 🐳 Docker
-- ☁️ AWS
-- 🧱 Terraform
-- 🔁 Jenkins & GitHub Actions
-- 📈 Prometheus & Grafana
-- 🔐 Snyk / Trivy
+### ✅ Tasks:
+- Update Resume & LinkedIn  
+- Prepare for DevOps Interview Questions  
+- Mock interviews  
+- Apply for internships & junior roles  
+- Practice explaining your projects like a pro
+
+📚 Extras:
+- [DevOps Interview Questions](https://roadmap.sh/devops)
+- Your GitHub is your resume — polish it!
+
+---
+
+## 🧰 Tools You’ll Use
+
+| Tool        | Purpose                          |
+|-------------|----------------------------------|
+| Linux       | Servers, Shell, Bash             |
+| Git & GitHub| Code collaboration               |
+| Docker      | Containerization                 |
+| AWS         | Cloud services                   |
+| Terraform   | Infrastructure as Code           |
+| Jenkins     | CI/CD pipelines                  |
+| GitHub Actions | Git-based automation         |
+| Prometheus & Grafana | Monitoring + dashboards |
+| Trivy/Gitleaks | Security scanning             |
 
 ---
 
 ## 👋 Who Made This?
 
-Made by: **Abdulrahman A. Muhamad**  
+Made with ❤️ by **Abdulrahman A. Muhamad**  
 🔗 GitHub: [@AbdulrahmanAlpha](https://github.com/AbdulrahmanAlpha)  
-🔗 LinkedIn: [/in/abdulrahmanalpha](https://www.linkedin.com/in/abdulrahmanalpha)
+🔗 LinkedIn: [/in/abdulrahmanalpha](https://www.linkedin.com/in/abdulrahmanalpha)  
+🧠 Learn more on my [Hashnode blog](https://abdulrahmanalpha.hashnode.dev)
+---
