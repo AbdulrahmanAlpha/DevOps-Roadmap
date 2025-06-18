@@ -1,137 +1,177 @@
-#  Simple DevOps Roadmap for Beginners
+# DevOps Engineer Roadmap for Beginners (By Abdulrahman)
 
-Hi, I’m Abdulrahman 👋  
-I created this roadmap to help anyone (including myself) learn **DevOps from scratch**.  
-If you want to become a DevOps Engineer or SRE but don’t know where to start, this is for you.
+Welcome to your journey into the world of DevOps!  
+This roadmap is designed for complete beginners who want a **clear, step-by-step path** to launching a DevOps career from scratch, especially if you're aiming for internships, entry-level jobs, or a future in DevSecOps.
 
 ---
 
-## 🧱 STEP 0: Know the Basics (2 Weeks)
+## 🧱 STEP 0: Basic IT & Networking (1–2 Weeks)
 
-✅ Learn how computers talk (Networking)  
-✅ Learn how to use the Terminal (Linux)  
-✅ Learn basic commands: `cd`, `ls`, `mkdir`, `touch`, etc.  
-✅ Try writing simple scripts using Bash
+### ✅ What You Need to Know:
+- What are IP addresses, DNS, DHCP, and NAT
+- What's the difference between LAN, WAN, VPN, and Firewall
+- What are ping, traceroute, and how to test a connection
+- Understand HTTP/HTTPS, ports, and protocols (TCP/UDP)
+
+📚 Tools & Resources:
+- [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+- [https://learntheprotocols.com](https://learntheprotocols.com)
+- YouTube: “Networking Fundamentals for DevOps”
+
+---
+
+## 🐧 STEP 1: Linux Fundamentals (2 Weeks)
+
+### ✅ What You Need to Know:
+- Navigate the terminal (`cd`, `ls`, `pwd`, `touch`, `mkdir`, etc.)
+- File permissions (`chmod`, `chown`, `umask`)
+- Users & groups (`adduser`, `usermod`, `passwd`)
+- Processes & logs (`top`, `ps`, `journalctl`, `systemctl`)
+- Bash scripting basics (`if`, `for`, `while`, functions)
+- Editing with `nano`, `vim`, or `vi`
 
 📚 Free Tools:
 - [https://linuxjourney.com](https://linuxjourney.com)
-- YouTube: “Linux for Beginners”
+- [https://overapi.com/linux](https://overapi.com/linux)
+- YouTube: “Linux for DevOps Beginners”
 
 ---
 
-## 🛠️ STEP 1: Use Git & GitHub (1 Week)
+## 🛠️ STEP 2: Version Control (Git & GitHub) (1 Week)
 
-✅ What is Git and GitHub?  
-✅ Learn how to `push`, `pull`, `commit`, `clone`  
-✅ Create a GitHub account  
-✅ Upload your first project
+### ✅ What You Need to Know:
+- What are Git, GitHub, and why do we use them
+- Common Git commands: `init`, `add`, `commit`, `clone`, `push`, `pull`, `branch`, `merge`
+- Resolving merge conflicts
+- Hosting code on GitHub
 
-📚 Free Tools:
+📚 Practice:
 - [https://learngitbranching.js.org](https://learngitbranching.js.org)
-- YouTube: “Git & GitHub Crash Course”
+- Create your first GitHub repo with a README
 
 ---
 
-## 🐳 STEP 2: Learn Docker (2 Weeks)
+## 🐳 STEP 3: Docker & Containers (2 Weeks)
 
-✅ What is a Container?  
-✅ Build a Dockerfile  
-✅ Run an App inside Docker  
-✅ Use Docker Compose to run multiple containers
+### ✅ What You Need to Know:
+- What is a container vs a virtual machine
+- Docker commands: `build`, `run`, `exec`, `images`, `volumes`, `networks`
+- Dockerfile basics: `FROM`, `COPY`, `RUN`, `CMD`, `EXPOSE`
+- Build and run your container
+- Intro to Docker Compose
 
-📚 Free Tools:
-- [https://docker-curriculum.com](https://docker-curriculum.com)
-- YouTube: “Docker for Beginners”
-
----
-
-## ☁️ STEP 3: Understand Cloud (2–3 Weeks)
-
-✅ What is the Cloud?  
-✅ Learn AWS basics: EC2, S3, IAM  
-✅ Create a free AWS account  
-✅ Launch a virtual machine (EC2)
-
-📚 Free Tools:
-- [https://aws.amazon.com/training](https://aws.amazon.com/training)
-- YouTube: “AWS for Beginners”
-
-🎓 Optional Certificate:  
-- AWS Cloud Practitioner
+📚 Practice:
+- Dockerize a Node.js or Python app
+- Run MySQL + app container together using Docker Compose
 
 ---
 
-## 📦 STEP 4: Infrastructure as Code (IaC) with Terraform (2 Weeks)
+## ☁️ STEP 4: Cloud Basics (AWS) (2–3 Weeks)
 
-✅ What is Terraform?  
-✅ Use Terraform to create EC2 & S3  
-✅ Understand `.tf` files  
-✅ Deploy and destroy resources with one command
+### ✅ What You Need to Know:
+- What is Cloud? What is AWS?
+- Key services: EC2, S3, IAM, VPC
+- How to SSH into EC2 and host a website
+- Upload/download files from S3
+- Understand IAM users, roles, and policies
 
-📚 Free Tools:
-- [https://developer.hashicorp.com/terraform/learn](https://developer.hashicorp.com/terraform/learn)
+📚 Tools:
+- [https://awseducate.com](https://awseducate.com)
+- Free Tier AWS Account
 
----
-
-## 🔁 STEP 5: CI/CD (3 Weeks)
-
-✅ What is CI/CD?  
-✅ Build a GitHub Actions pipeline  
-✅ Build a Jenkins pipeline  
-✅ Automate Docker builds and deployments
-
-📚 Free Tools:
-- [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
-- YouTube: “CI/CD with Jenkins”
+🎓 Certification:
+- AWS Certified Cloud Practitioner (Optional but helpful)
 
 ---
 
-## 🔐 STEP 6: DevSecOps & Monitoring (2 Weeks)
+## 📦 STEP 5: Infrastructure as Code (Terraform) (2 Weeks)
 
-✅ Learn basic security in DevOps (DevSecOps)  
-✅ Scan your Docker images (Trivy or Snyk)  
-✅ Set up monitoring with Prometheus + Grafana
+### ✅ What You Need to Know:
+- What is IaC and why does it matter
+- Terraform setup and folder structure
+- `provider`, `resource`, `variable`, `output`
+- Deploy EC2, VPC, and S3 with Terraform
+- `init`, `plan`, `apply`, `destroy`
+
+📚 Practice:
+- Create an EC2 + S3 setup with Terraform
+- Store Terraform state in an S3 bucket
+
+---
+
+## 🔁 STEP 6: CI/CD Fundamentals (GitHub Actions & Jenkins) (3 Weeks)
+
+### ✅ What You Need to Know:
+- What is CI/CD and why it important
+- GitHub Actions: `.yml` basics, build/test/deploy jobs
+- Jenkins: Install, pipelines, and connecting to GitHub
+- Automate app testing & deployment to EC2 or S3
+
+📚 Projects:
+- GitHub Actions pipeline for a static website
+- Jenkins pipeline to deploy a Docker app to EC2
+
+---
+
+## 🔐 STEP 7: DevSecOps & Monitoring (2 Weeks)
+
+### ✅ What You Need to Know:
+- What is DevSecOps?
+- Scan Docker containers using Snyk or Trivy
+- Set up Prometheus and Grafana for monitoring
+- Create alerts for app downtime or high CPU usage
 
 📚 Free Tools:
-- YouTube: “Prometheus + Grafana monitoring”
 - [https://snyk.io](https://snyk.io)
+- [https://prometheus.io](https://prometheus.io)
 
 ---
 
-## 📂 STEP 7: Projects & Portfolio (4 Weeks)
+## 💡 STEP 8: Build Your Portfolio (4 Weeks)
 
-✅ Build 3–5 simple projects:  
-- CI/CD pipeline using GitHub Actions  
-- Deploy app with Docker on AWS EC2  
-- IaC setup using Terraform  
-- Monitoring with Prometheus + Grafana  
-- Scan Docker images with Snyk
+### ✅ Do These Projects:
+- CI/CD for static site to S3
+- Deploy WordPress on EC2 with Terraform
+- Dockerize a Python or Node.js app
+- Monitor services with Prometheus & Grafana
+- Security scan + Docker Hub push
 
-📂 Upload to GitHub  
-📄 Write good README files  
-📝 Post articles on [https://hashnode.com](https://hashnode.com)
-
----
-
-## 💼 FINAL STEP: Job Ready
-
-✅ Update your resume  
-✅ Share projects on LinkedIn  
-✅ Apply to internships & junior DevOps roles  
-✅ Practice interview questions
+✅ For each project:
+- Write a full `README.md`
+- Upload to GitHub
+- Share screenshots and blog posts on Hashnode
 
 ---
 
-## 🧠 Reminder
+## 🧳 FINAL STEP: Job Prep
 
-- You don’t need to be a genius
-- Be consistent, not perfect
-- Build & share what you learn
+### ✅ What You Need to Know:
+- Update your Resume & LinkedIn
+- Prepare for common DevOps Interview Questions
+- Apply to internships & entry-level roles
+- Practice explaining your projects
 
-> "Start where you are. Use what you have. Do what you can." – Arthur Ashe
+📚 Free Resources:
+- [https://roadmap.sh/devops](https://roadmap.sh/devops)
+- DevOps Interview Prep Questions
 
 ---
 
-👨‍💻 Made by: Abdulrahman A. Muhamad  
-GitHub: [@AbdulrahmanAlpha](https://github.com/AbdulrahmanAlpha)  
-LinkedIn: [/in/abdulrahmanalpha](https://linkedin.com/in/abdulrahmanalpha)
+## 🏁 Summary: Tools You Should Learn
+
+- 🐧 Linux
+- 🔗 Git & GitHub
+- 🐳 Docker
+- ☁️ AWS
+- 🧱 Terraform
+- 🔁 Jenkins & GitHub Actions
+- 📈 Prometheus & Grafana
+- 🔐 Snyk / Trivy
+
+---
+
+## 👋 Who Made This?
+
+Made by: **Abdulrahman A. Muhamad**  
+🔗 GitHub: [@AbdulrahmanAlpha](https://github.com/AbdulrahmanAlpha)  
+🔗 LinkedIn: [/in/abdulrahmanalpha](https://www.linkedin.com/in/abdulrahmanalpha)
