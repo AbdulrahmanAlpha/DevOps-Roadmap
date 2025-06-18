@@ -71,7 +71,7 @@ This roadmap is crafted for complete beginners who want a clear, hands-on, and s
 ### ✅ Topics:
 - What is AWS?
 - EC2, S3, IAM, VPC basics
-- SSH, file uploads, host static site
+- SSH, file uploads, host a static site
 - IAM roles, policies
 
 🎓 Certification (Optional):
@@ -153,7 +153,7 @@ This roadmap is crafted for complete beginners who want a clear, hands-on, and s
 
 📚 Extras:
 - [DevOps Interview Questions](https://roadmap.sh/devops)
-- Your GitHub is your resume — polish it!
+- Your GitHub is your resume, polish it!
 
 ---
 
